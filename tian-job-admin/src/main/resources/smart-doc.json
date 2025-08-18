@@ -1,0 +1,51 @@
+{
+  "serverUrl": "http://192.168.3.101:8102/dwpc/",
+  "isStrict": false,
+  "allInOne": true,
+  "outPath": "target/classes/smart-doc/doc",
+  "coverOld": true,
+  "packageFilters": "com.yitiankeji.controller",
+  "md5EncryptedHtmlName": false,
+  "projectName": "开发文档",
+  "skipTransientField": true,
+  "allInOneDocFileName": "index.html",
+  "createDebugPage": true,
+  "style": "xt256",
+  "appToken": "485fdfc95b5d4e14860e8cb595ef3d04",
+  "openUrl": "http://8.130.97.199:7700/api",
+  "debugEnvUrl": "http://8.130.97.199:8743/",
+  "debugEnvName": "tian-job",
+  "tornaDebug": true,
+  "replace": true,
+  "replaceUpLowerCase": true,
+  "requestHeaders": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "responseHeaders": [
+    {
+      "name": "Content-Type",
+      "value": "application/json;charset=UTF-8"
+    }
+  ],
+  "revisionLogs": [
+    {
+      "version": "1.0.0",
+      "status": "use",
+      "author": "tianlihu",
+      "revisionTime": "2024-08-05",
+      "remarks": "轻量化集群调度平台"
+    }
+  ],
+  "responseBodyAdvice": {
+    "className": "com.yitiankeji.response.HttpResponse"
+  },
+  "groups": [
+    {
+      "name": "调度平台",
+      "apis": "com.yitiankeji.controller.*"
+    }
+  ]
+}

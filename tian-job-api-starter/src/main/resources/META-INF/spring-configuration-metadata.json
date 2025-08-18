@@ -1,0 +1,15 @@
+{
+  "properties": [
+    {
+      "name": "tian.job.admin_addresses",
+      "type": "java.lang.String",
+      "description": "任务调度管理平台的地址",
+      "defaultValue": "http://localhost:8743"
+    },
+    {
+      "name": "tian.job.job_executor_code",
+      "type": "java.lang.String",
+      "description": "执行器编码"
+    }
+  ]
+}
