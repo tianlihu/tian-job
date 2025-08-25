@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { useTimeAgo } from '@/hooks/web/useTimeAgo'
-import { ElRow, ElCol, ElSkeleton, ElCard, ElDivider, ElLink } from 'element-plus'
+import { ElCard, ElCol, ElDivider, ElLink, ElRow, ElSkeleton } from 'element-plus'
 import { useI18n } from '@/hooks/web/useI18n'
-import { ref, reactive } from 'vue'
+import { reactive, ref } from 'vue'
 import { CountTo } from '@/components/CountTo'
 import { formatTime } from '@/utils'
 import { Echart } from '@/components/Echart'
@@ -11,12 +11,12 @@ import { radarOption } from './echarts-data'
 import { Highlight } from '@/components/Highlight'
 import {
   getCountApi,
-  getProjectApi,
   getDynamicApi,
-  getTeamApi,
-  getRadarApi
+  getProjectApi,
+  getRadarApi,
+  getTeamApi
 } from '@/api/dashboard/workplace'
-import type { WorkplaceTotal, Project, Dynamic, Team } from '@/api/dashboard/workplace/types'
+import type { Dynamic, Project, Team, WorkplaceTotal } from '@/api/dashboard/workplace/types'
 import { set } from 'lodash-es'
 
 const loading = ref(true)

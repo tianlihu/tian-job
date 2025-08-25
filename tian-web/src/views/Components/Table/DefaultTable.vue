@@ -4,7 +4,7 @@ import { useI18n } from '@/hooks/web/useI18n'
 import { Table, TableColumn } from '@/components/Table'
 import { getTableListApi } from '@/api/table'
 import { TableData } from '@/api/table/types'
-import { ref, h } from 'vue'
+import { h, ref } from 'vue'
 import { ElTag } from 'element-plus'
 import { BaseButton } from '@/components/Button'
 

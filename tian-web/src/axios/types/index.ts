@@ -1,10 +1,10 @@
 import type {
-  InternalAxiosRequestConfig,
-  AxiosResponse,
-  AxiosRequestConfig,
+  AxiosError,
   AxiosInstance,
+  AxiosRequestConfig,
   AxiosRequestHeaders,
-  AxiosError
+  AxiosResponse,
+  InternalAxiosRequestConfig
 } from 'axios'
 
 interface RequestInterceptors<T> {

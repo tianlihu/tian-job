@@ -1,21 +1,20 @@
 <script setup lang="tsx">
-import { Form } from '@/components/Form'
-import { reactive, ref, onMounted, computed } from 'vue'
+import { CheckboxOption, Form, FormSchema, RadioOption, SelectOption } from '@/components/Form'
+import { computed, onMounted, reactive, ref } from 'vue'
 import { useI18n } from '@/hooks/web/useI18n'
 import { ContentWrap } from '@/components/ContentWrap'
 import { useAppStore } from '@/store/modules/app'
-import { SelectOption, RadioOption, CheckboxOption, FormSchema } from '@/components/Form'
 import {
-  ElOption,
-  ElOptionGroup,
-  ElRadio,
-  ElRadioButton,
   ElCheckbox,
   ElCheckboxButton,
+  ElIcon,
   ElInput,
   ElMessage,
   ElMessageBox,
-  ElIcon
+  ElOption,
+  ElOptionGroup,
+  ElRadio,
+  ElRadioButton
 } from 'element-plus'
 import { getDictOneApi } from '@/api/common'
 import { Icon } from '@/components/Icon'

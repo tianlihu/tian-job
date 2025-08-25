@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ContentWrap } from '@/components/ContentWrap'
 import { useI18n } from '@/hooks/web/useI18n'
-import { Avatars, AvatarItem } from '@/components/Avatars'
+import { AvatarItem, Avatars } from '@/components/Avatars'
 import { ref } from 'vue'
 
 const { t } = useI18n()

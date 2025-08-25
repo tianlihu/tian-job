@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { FormSchema, Form } from '@/components/Form'
+import { Form, FormSchema } from '@/components/Form'
 import { useForm } from '@/hooks/web/useForm'
 import { useValidator } from '@/hooks/web/useValidator'
 import { reactive, ref, watch } from 'vue'

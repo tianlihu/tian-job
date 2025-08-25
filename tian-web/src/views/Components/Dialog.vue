@@ -2,7 +2,7 @@
 import { ContentWrap } from '@/components/ContentWrap'
 import { Dialog } from '@/components/Dialog'
 import { useI18n } from '@/hooks/web/useI18n'
-import { ref, reactive } from 'vue'
+import { reactive, ref } from 'vue'
 import { Form, FormSchema } from '@/components/Form'
 import { useValidator } from '@/hooks/web/useValidator'
 import { getDictOneApi } from '@/api/common'

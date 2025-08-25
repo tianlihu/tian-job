@@ -1,5 +1,5 @@
-import { h } from 'vue'
 import type { VNode } from 'vue'
+import { h } from 'vue'
 import { Icon, IconTypes } from '@/components/Icon'
 
 export const useIcon = (props: IconTypes): VNode => {

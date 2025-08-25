@@ -4,7 +4,7 @@ import { useI18n } from '@/hooks/web/useI18n'
 import { reactive } from 'vue'
 import { JsonEditor } from '@/components/JsonEditor'
 import { ContentWrap } from '@/components/ContentWrap'
-import { ElRow, ElCol } from 'element-plus'
+import { ElCol, ElRow } from 'element-plus'
 
 const { t } = useI18n()
 

@@ -1,9 +1,9 @@
 import request from '@/axios'
 import type {
   AnalysisTotalTypes,
+  MonthlySales,
   UserAccessSource,
-  WeeklyUserActivity,
-  MonthlySales
+  WeeklyUserActivity
 } from './types'
 
 export const getCountApi = (): Promise<IResponse<AnalysisTotalTypes[]>> => {

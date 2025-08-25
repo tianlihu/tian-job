@@ -3,7 +3,7 @@ import Detail from './components/Detail.vue'
 import { ContentDetailWrap } from '@/components/ContentDetailWrap'
 import { ref } from 'vue'
 import { useI18n } from '@/hooks/web/useI18n'
-import { useRouter, useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { getTableDetApi } from '@/api/table'
 import { TableData } from '@/api/table/types'
 

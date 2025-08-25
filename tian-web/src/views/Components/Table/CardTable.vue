@@ -4,7 +4,7 @@ import { useI18n } from '@/hooks/web/useI18n'
 import { Table } from '@/components/Table'
 import { getCardTableListApi } from '@/api/table'
 import { ref } from 'vue'
-import { ElLink, ElDivider } from 'element-plus'
+import { ElDivider, ElLink } from 'element-plus'
 
 interface Params {
   pageIndex?: number

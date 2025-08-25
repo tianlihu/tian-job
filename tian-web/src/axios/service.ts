@@ -1,7 +1,7 @@
 import axios, { AxiosError } from 'axios'
 import { defaultRequestInterceptors, defaultResponseInterceptors } from './config'
 
-import { AxiosInstance, InternalAxiosRequestConfig, RequestConfig, AxiosResponse } from './types'
+import { AxiosInstance, AxiosResponse, InternalAxiosRequestConfig, RequestConfig } from './types'
 import { ElMessage } from 'element-plus'
 import { REQUEST_TIMEOUT } from '@/constants'
 

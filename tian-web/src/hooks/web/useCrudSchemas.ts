@@ -1,5 +1,5 @@
 import { reactive } from 'vue'
-import { eachTree, treeMap, filter } from '@/utils/tree'
+import { eachTree, filter, treeMap } from '@/utils/tree'
 import { FormSchema } from '@/components/Form'
 import { TableColumn } from '@/components/Table'
 import { DescriptionsSchema } from '@/components/Descriptions'

@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import PanelGroup from './components/PanelGroup.vue'
-import { ElRow, ElCol, ElCard, ElSkeleton } from 'element-plus'
+import { ElCard, ElCol, ElRow, ElSkeleton } from 'element-plus'
 import { Echart } from '@/components/Echart'
-import { pieOptions, barOptions, lineOptions } from './echarts-data'
-import { ref, reactive, computed, watch, onMounted } from 'vue'
+import { barOptions, lineOptions, pieOptions } from './echarts-data'
+import { computed, onMounted, reactive, ref, watch } from 'vue'
 import {
+  getMonthlySalesApi,
   getUserAccessSourceApi,
-  getWeeklyUserActivityApi,
-  getMonthlySalesApi
+  getWeeklyUserActivityApi
 } from '@/api/dashboard/analysis'
 import { set } from 'lodash-es'
 import { EChartsOption } from 'echarts'

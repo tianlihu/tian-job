@@ -127,5 +127,5 @@
     "node": ">=18.0.0",
     "pnpm": ">=8.1.0"
   },
-  "license": "AGPL-3.0",
+  "license": "AGPL-3.0"
 }

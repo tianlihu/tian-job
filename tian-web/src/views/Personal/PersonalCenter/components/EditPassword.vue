@@ -3,7 +3,7 @@ import { Form, FormSchema } from '@/components/Form'
 import { useForm } from '@/hooks/web/useForm'
 import { reactive, ref } from 'vue'
 import { useValidator } from '@/hooks/web/useValidator'
-import { ElMessage, ElMessageBox, ElDivider } from 'element-plus'
+import { ElDivider, ElMessage, ElMessageBox } from 'element-plus'
 
 const { required } = useValidator()
 

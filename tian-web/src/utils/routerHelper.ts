@@ -1,12 +1,12 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
 import type {
-  Router,
   RouteLocationNormalized,
+  Router,
   RouteRecordNormalized,
   RouteRecordRaw
 } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import { isUrl } from '@/utils/is'
-import { omit, cloneDeep } from 'lodash-es'
+import { cloneDeep, omit } from 'lodash-es'
 
 const modules = import.meta.glob('../views/**/*.{vue,tsx}')
 
